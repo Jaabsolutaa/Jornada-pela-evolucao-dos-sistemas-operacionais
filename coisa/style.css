@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+    color: #FC6F2F;
+    text-decoration: none;
+    flex-direction: row;
+    position: relative;
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+    padding: 0 30px;
+    
+    
+  }
+  
+  a:hover{
+    color:#9c3607 ;
+    transform: scale(1.05);
+    transition:0.6s;
+  }
+  
+  .cabecinha{
+    background-color: #FFE9D1;
+    padding: 40px 4%;
+    margin : -20px;
+    position : sticky;
+    top : 0px;
+    left: 0px;
+   }
+  .logo {
+    background-color: azure;
+    position: relative;
+    top: -19px;
+    left: -20px;
+    width: 100px;
+    height: 100px;
+  }
+  .cabecinha .links{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    left: -20px;
+    border: 1px;
+    padding: 5px;
+    list-style-type: none;
+    color: #515839;
+    text-decoration: none;
+    
+   }
+  .sobre_mim{
+      display:flex;
+  }
+  .detalhes{
+      margin-left: 10px;
+  }
+  
+div img{
+      width: 60px;
+      border-radius: 50%;
+  }
+  
+  
